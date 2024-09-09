@@ -270,7 +270,7 @@ function mostrarConReportes() {
 		return a.nombreCat.localeCompare(b.nombreCat);
 	});
 
-	totales_por_categoria.innerHTML =""; //Esto  1 línea  #######################################################
+	totales_por_categoria.innerHTML =""; 
 	totalesCat.forEach((totCat) => {
 		let x;
 		if (totCat.balance > 0) {
@@ -326,7 +326,7 @@ function mostrarConReportes() {
 			}
 		}
 	});
-	totales_por_mes.innerHTML = "";  //Esto  ################################################
+	totales_por_mes.innerHTML = "";  
 	totalesMes.forEach((totMes) => {
 		let x;
 		if (totMes.balance > 0) {
